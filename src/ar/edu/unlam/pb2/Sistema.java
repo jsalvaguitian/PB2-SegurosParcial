@@ -37,6 +37,7 @@ public class Sistema {
 				}
 				if(((UsuarioBasico) buscado).getCantidadLogueoMal()>=4){
 					((UsuarioBasico) buscado).setFueBloqueado(true);
+					
 					this.bloqueados.add((UsuarioBasico) buscado);
 					return false;
 				}
