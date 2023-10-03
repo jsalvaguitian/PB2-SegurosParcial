@@ -21,8 +21,8 @@
 8. Si se intenta eliminar un usuario que no sea Eliminable se debe arrojar la excepción *java.lang.ClassCastException.*
 
 9. Los ***requisitos de las contraseñas*** varían entre los usuarios Básicos y los usuarios Administradores.
-   9.1 Los **usuarios básicos** deben tener contraseñas **que contengan al menos un número y una minúscula y una mayúscula**.
-   9.2 Los **usuarios administradores** además de los requisitos de la contraseña de los usuarios básicos deben **tener un carácter especial y no puede tener secuencia de más de 3 caracteres seguidos** (123 y abc es válido, pero 1234 o abcd no). 
+   * 9.1 Los **usuarios básicos** deben tener contraseñas **que contengan al menos un número y una minúscula y una mayúscula**.
+   * 9.2 Los **usuarios administradores** además de los requisitos de la contraseña de los usuarios básicos deben **tener un carácter especial y no puede tener secuencia de más de 3 caracteres seguidos** (123 y abc es válido, pero 1234 o abcd no). 
 
 10. Intentar generar un usuario con una contraseña inválida debe arrojar la excepción *unlam.pb2.InvalidPassword*
 
