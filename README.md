@@ -4,7 +4,7 @@
 
 ------------
 
-1. Los **usuarios** pueden ser de tipo ** Básico o Administradores.**
+1. Los **usuarios** pueden ser de tipo **Básico o Administradores.**
 
 2. Los **usuarios básicos** son **Bloqueables** y **Eliminables**.
 
